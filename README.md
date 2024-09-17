@@ -69,4 +69,20 @@ CREATE TABLE Movimentacao (
 );
 ```
 
+Conexão com o banco de dados Postgres
+
+```json
+{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "AllowedHosts": "*", 
+  "ConnectionStrings": { //Host        Nome do Usuario       Nome da Data Base
+    "DefaultConnection": "Host=;Port=;Username=;Password=;Database=apimovimentacaoestoque"
+  }                      //    Porta            Senha  
+}
+
 
