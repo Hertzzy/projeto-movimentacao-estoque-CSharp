@@ -1,0 +1,60 @@
+[
+  {
+    "ContainingType": "movimentacao_de_projeto.Controllers.MovimentacaoController",
+    "Method": "CriarMovimentacao",
+    "RelativePath": "api/Movimentacao",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "movimentacaoDto",
+        "Type": "movimentacao_de_projeto.Dto.MovimentacaoCriarDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "movimentacao_de_projeto.Controllers.MovimentacaoController",
+    "Method": "ExcluirMovimentacao",
+    "RelativePath": "api/Movimentacao/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "movimentacao_de_projeto.Controllers.Produto",
+    "Method": "CriarProduto",
+    "RelativePath": "api/Produto",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "produtoCriarDto",
+        "Type": "movimentacao_de_projeto.Dto.ProdutoCriarDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "movimentacao_de_projeto.Controllers.Produto",
+    "Method": "BuscarProdutos",
+    "RelativePath": "api/Produto",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
